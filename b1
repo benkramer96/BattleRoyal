@@ -1,0 +1,12 @@
+import java.util.*;
+
+class BattleRoyal{
+  public static void main (String[] args){
+    System.out.println("Welcome to the Battle Royal. Your job is to beat the other fighters. /n What is your characters name?");
+    
+    Scanner charactername = new Scanner(System.in);
+    String charactersname = charactername.nextLine();
+    
+    System.out.println(charactersname);
+  }
+}
